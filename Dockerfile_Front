@@ -1,0 +1,9 @@
+FROM node:10.9
+RUN npm install -g @angular/cli@8.3.19
+COPY Project_Front Project_Front/
+WORKDIR /Project_Front
+RUN npm install
+RUN npm update
+EXPOSE 4200/tcp
+EXPOSE 4200/udp
+CMD ng serve --host 0.0.0.0 --port 4200

@@ -1,0 +1,6 @@
+FROM maven:3.6.1-jdk-8-slim
+COPY Project_Back Project_Back/ 
+WORKDIR /Project_Back
+RUN mvn clean package
+EXPOSE 8080
+CMD java -jar target/projet-0.0.1-SNAPSHOT.jar
