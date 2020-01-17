@@ -6,10 +6,11 @@ Ce projet a pour objectif de déployer via docker l'application dont on peut tro
 [BACK](https://github.com/marmai-jma/Project_Back)
 
 ## Configuration
-1. Ouvrir git bash à l'endroit souhaité
-2. Lancer la commande `git clone https://github.com/marmai-jma/Project_Deploy.git`
-3. Lancer la commande `cd Project_Deploy` 
-4. Lancer la commande `chmod 755 install.sh deploy.sh`
+1. Lancer Docker
+2. Ouvrir git bash à l'endroit souhaité
+3. Lancer la commande `git clone https://github.com/marmai-jma/Project_Deploy.git`
+4. Lancer la commande `cd Project_Deploy` 
+5. Lancer la commande `chmod 755 install.sh deploy.sh`
 
 ## Premier lancement ou en cas de mise à jour en Master d'un des deux projets ci-dessus
 1. Faire click droit open git bash here dans le répertoire Project_Deploy.
